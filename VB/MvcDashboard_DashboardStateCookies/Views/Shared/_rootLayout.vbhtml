@@ -19,6 +19,7 @@
                 )
 
     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="~/Script/Script.js"></script>
 </head>
 <body>
     @Html.DevExpress().Splitter(Sub(settings)
