@@ -1,10 +1,3 @@
-<script type="text/javascript">
-    function onDashboardStateChanged(s, e) {
-        var cookies = e.DashboardState;
-        ASPxClientUtils.SetCookie('MVCxDashboardState', cookies);
-    }
-</script>
-
 @Html.DevExpress().Dashboard(Sub(settings)
     settings.Name = "Dashboard"
     settings.ControllerName = "DefaultDashboard"
