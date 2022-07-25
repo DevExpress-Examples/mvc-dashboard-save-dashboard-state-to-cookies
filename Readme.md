@@ -22,9 +22,9 @@ specifies a service that allows you to manage a dashboard state. In this service
 ## Files to Look At
 
 * [CustomDashboardStateService.cs](./CS/MvcDashboard_DashboardStateCookies/App_Start/CustomDashboardStateService.cs) (VB: [CustomDashboardStateService.vb](./VB/MvcDashboard_DashboardStateCookies/App_Start/CustomDashboardStateService.vb))
-* [DashboardConfig.cs](./CS/MvcDashboard_DashboardStateCookies/App_Start/DashboardConfig.cs#L13) (VB: [DashboardConfig.vb](./VB/MvcDashboard_DashboardStateCookies/App_Start/DashboardConfig.vb))
-* [Index.cshtml](./CS/MvcDashboard_DashboardStateCookies/Views/Home/Index.cshtml)
-* [_rootLayout.cshtml](./CS/MvcDashboard_DashboardStateCookies/Views/Shared/_rootLayout.cshtml#L16)
+* [DashboardConfig.cs](./CS/MvcDashboard_DashboardStateCookies/App_Start/DashboardConfig.cs#L13) (VB: [DashboardConfig.vb](./VB/MvcDashboard_DashboardStateCookies/App_Start/DashboardConfig.vb#L17))
+* [Index.cshtml](./CS/MvcDashboard_DashboardStateCookies/Views/Home/Index.cshtml#L7) (VB: [Index.vbhtml](./VB/MvcDashboard_DashboardStateCookies/Views/Home/Index.vbhtml#L14))
+* [_rootLayout.cshtml](./CS/MvcDashboard_DashboardStateCookies/Views/Shared/_rootLayout.cshtml#L16) (VB: [_rootLayout.vbhtml](./VB/MvcDashboard_DashboardStateCookies/Views/Shared/_rootLayout.vbhtml#L22))
 * [Script.js](./CS/MvcDashboard_DashboardStateCookies/Script/Script.js)
 
 ## Documentation
