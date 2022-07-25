@@ -6,7 +6,7 @@ Namespace MvcDashboard_DashboardStateCookies
         Implements IDashboardStateService
 
         Public Function GetState(ByVal dashboardId As String, ByVal dashboard As XDocument) As DashboardState Implements IDashboardStateService.GetState
-            Dim cookie As HttpCookie = HttpContext.Current.Request.Cookies("MVCxDashboardState")
+            Dim cookie As HttpCookie = HttpContext.Current.Request.Cookies("dashboardState")
             If cookie IsNot Nothing Then
                 Dim dashboardState As New DashboardState()
                 dashboardState.LoadFromJson(HttpUtility.UrlDecode(cookie.Value))
