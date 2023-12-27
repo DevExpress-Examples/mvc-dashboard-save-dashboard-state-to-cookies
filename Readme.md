@@ -7,7 +7,7 @@
 
 The sample illustrates how to save the current [dashboard state](https://docs.devexpress.com/Dashboard/119765/web-dashboard/aspnet-mvc-dashboard-extension/manage-dashboard-state) (such as master filter or parameter values) to cookies on the client side and restore this state on the server side:
 
-* The [ASPxClientDashboard.DashboardStateChanged](https://docs.devexpress.com/Dashboard/js-ASPxClientDashboard#js_aspxclientdashboard_dashboardstatechanged) event is handled to obtain the current dashboard state.
+* The [DashboardControlOptions.onDashboardStateChanged](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions?p=netframework#js_devexpress_dashboard_dashboardcontroloptions_ondashboardstatechanged) event  is handled to obtain the current dashboard state.
 * The [ASPxClientUtils.SetCookie](https://docs.devexpress.com/AspNet/js-ASPxClientUtils.SetCookie.static(name-value)) client-side method is used to save the dashboard state to cookies.
 * The [DashboardConfigurator.SetDashboardStateService](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.DashboardConfigurator.SetDashboardStateService(DevExpress.DashboardWeb.IDashboardStateService)) method applies the dashboard state loaded from the cookies.
 
